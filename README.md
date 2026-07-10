@@ -12,7 +12,6 @@ styles.css              # KRISHNA design-system tokens + layout
 script.js               # Smooth scroll, mobile menu, active-nav, animations
 images/                 # profile.jpg (hero) + face.svg (placeholder)
 validate.js             # Project sanity-check (node validate.js)
-vercel.json             # Static deploy config
 ```
 
 ## Sections
@@ -37,4 +36,7 @@ Then open http://localhost:8000
 
 ## Deploy
 
-See [DEPLOY.md](DEPLOY.md) (Vercel, GitHub Pages, Netlify, or any static host).
+This is a static site. Enable **GitHub Pages** on the repo:
+*Settings → Pages → Build and deployment → Source: "Deploy from a branch" →
+Branch: `main`, folder: `/ (root)` → Save.* The site publishes at
+`https://ninjareed.github.io/Portfolio/`.
