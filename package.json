@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-krishna",
+  "version": "1.0.0",
+  "description": "Portfolio website based on KRISHNA design system",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "node validate.js",
+    "deploy": "vercel deploy"
+  },
+  "keywords": ["portfolio", "krishna", "design-system", "responsive"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  }
+}
